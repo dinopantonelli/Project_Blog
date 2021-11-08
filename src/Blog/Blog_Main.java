@@ -111,6 +111,19 @@ class LaminaBlog extends JPanel{
             	 
             	 if(opcion_tarea.equals("Tarea 1")){
                   mi_tarea1.add(JOptionPane.showInputDialog("Ingrese el titulo de la tarea:"));
+                  //try{ 
+                     
+                     // FileWriter escritura1=new FileWriter("src/Blog/tarea_1.txt",true);//con el true pone una frase a continuacion de otra
+                     //    for(int i=0;i<frase.length();i++){
+                          
+                    //      escritura1.write(frase.charAt(i));
+                          
+                         //}
+                      //escritura1.close();
+                    //  }catch (IOException e1){
+                   //     e1.printStackTrace(); 
+                  // }
+                  
                   mi_tarea1.add(JOptionPane.showInputDialog("Ingrese la tarea:"));	
                   mi_tarea1.add(JOptionPane.showInputDialog("Ingrese la fecha tope de la tarea (XX/XX/XXXX):"));
             		
